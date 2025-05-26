@@ -3,11 +3,40 @@
 > 💡 **Tip: [Please find **👉 MY BLOG** for an introduction to the project, along with the detailed mathematical and biological reasoning behind the code in this repository.](https://myhugoblog)**
 
 ## Introduction
-Alveolar deposition is indeed a key event in respiratory infections, including pneumonia and viral infections like COVID-19. It allows many infectious agents (like bacteria, viruses, and fungi) to establish infection and cause damage to the lungs and overall health. Aerosols of 1–5 microns in diameter are able to bypass the upper airways and reach the deep parts of the lungs, including the alveoli. It is through aerosols that respiratory diseases like COVID-19, tuberculosis, and influenza spread so effectively.
+### 🌬️ Alveolar Deposition & Respiratory Infections
 
-I thought the small size of aerosols that deeply reach alveoli made them subject to [Brownian motion](https://en.wikipedia.org/wiki/Brownian_motion) and deposit in a random, erratic pattern. But the Fig 1D of [Rothchild et al.,(2019)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6910245/) strongly challenged this idea. Specifically, the mice were infected with 2 × 10³ aerosolized tuberculosis bateria (M.tb), and one day later more than 15% of the infected alveoli contained two bacteria. Considering the [36-hour douling time of M.tb](https://pmc.ncbi.nlm.nih.gov/articles/PMC2779834/) even in rich growth conditions, we can reasonably ignore M.tb proliferation within the first day, during which the bacteria must acclimate to the immunocompetent lung environment. The frequency, therefore, does not align with the assumption that M.tb deposits randomly in each infection niche—the region surveilled by one of the more than 7 × 10⁵ individual alveolar macrophages—at the same probability.
+Alveolar deposition is a **key event** in respiratory infections, including pneumonia and viral diseases like **COVID-19**. It allows many infectious agents — bacteria, viruses, and fungi — to establish infection and damage the lungs and overall health. Aerosols of **1–5 microns** in diameter can bypass the upper airways and reach the deep lung regions, including the alveoli. Through these aerosols, respiratory diseases such as COVID-19, tuberculosis, and influenza spread **very effectively**.
 
-I will demonstrate below that random niche deposition cannot recapitulate the results shown in [Fig 1D](https://pmc.ncbi.nlm.nih.gov/articles/PMC6910245/), however, preferential deposition in certain niches successfully reproduces the findings. This suggests that infectious agents affect alveoli unevenly, and precision medicine should account for this variability to achieve satisfactory specificity and efficacy. Aerosolized drugs with similar deposition patterns are expected to be more advantageous compared to the same drugs delivered by other routes. 
+
+### 🤔 Initial Assumption: Random Deposition
+
+I thought the small aerosols that reach alveoli would be subject to [Brownian motion](https://en.wikipedia.org/wiki/Brownian_motion) and deposit in a **random, erratic pattern**.
+
+
+### 🔍 What the Data Shows
+
+But [Fig 1D from Rothchild et al., (2019)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6910245/) strongly challenges this:
+
+- Mice infected with **2 × 10³** aerosolized tuberculosis bacteria (*M.tb*)  
+- After just **1 day**, over **15%** of infected alveoli contained **two bacteria** each!
+
+Considering the [36-hour doubling time of *M.tb*](https://pmc.ncbi.nlm.nih.gov/articles/PMC2779834/) even in ideal growth conditions, bacterial growth can be ignored during this period — the bacteria need time to acclimate in the immune-competent lung environment. 
+
+
+### ⚠️ What This Means
+
+The observed frequency **does not match** the idea of random deposition. If *M.tb* settled randomly, each infection niche — the area patrolled by one of more than **7 × 10⁵** alveolar macrophages — would have the same chance of infection. That’s clearly **not happening**.
+
+
+### 📊 Summary & Implications
+
+I’ll show below that:
+
+- **Random niche deposition cannot explain** the experimental results  
+- **Preferential deposition in certain niches reproduces** the observed patterns
+
+This suggests infectious agents affect alveoli **unevenly**, and precision medicine should consider this variability to improve **specificity and efficacy**. Aerosolized drugs that mimic these deposition patterns may offer better outcomes compared to other delivery routes.
+
 
 ## Computation methods
 Please see complete description in [**👉 MY BLOG**](https://myhugoblog). Briefly, 
