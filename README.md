@@ -31,11 +31,14 @@ P_2, & \forall i \in (N_{P1}, N_{\text{niche}}]
 $$
 
 ## Results
-
+### Prefered depostion model recaps real world data accurately
 As a result, Monte Carlo simulation using the $f(x)$ of max likelihood gives a **nealy same result** as reported in the Fig 1D of [Rothchild et al.,(2019)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6910245/).
 
-![prefered depostion model recap real world data](model_aerosol_depostion_prefered depostion.jpg)
+![prefered depostion model recap real world data](model_aerosol_depostion_prefered%20depostion.jpg)
 
+### Predict the infection doses allowing asymptomatic infection
 We can continue to predict the the number of alveolar macrophages initially infected varied with infection dose, and what infection dose can cause acute symptomatic infection. Below animation demonstrates the prediction.
+
+![animate](model_aerosol_depostion_bestModel,boostrapDynamicVis1.gif)
 
 
