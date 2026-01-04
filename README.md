@@ -1,6 +1,6 @@
 # 💨 Modeling the deposition of infectious agents suggests that aerosolized drugs offer enhanced specificity
 
-> 💡 **Tip: [Please find **👉 MY BLOG** for an introduction to the project, along with the detailed mathematical and biological reasoning behind the code in this repository.](https://myhugoblog)**
+> 💡 **Tip: [Please find **👉 MY BLOG** for an introduction to the project, along with the detailed mathematical and biological reasoning behind the code in this repository.](https://jiyuanliu.netlify.app/post/00.model_aerosol_depostion/)**
 
 ## Introduction
 ### 🌬️ Alveolar Deposition & Respiratory Infections
@@ -39,7 +39,7 @@ This suggests infectious agents affect alveoli **unevenly**, and precision medic
 
 
 ## Computation methods
-Please see complete description in [**👉 MY BLOG**](https://myhugoblog). Briefly, 
+Please see complete description in [**👉 MY BLOG**](https://jiyuanliu.netlify.app/post/00.model_aerosol_depostion/). Briefly, 
 ### 1. Random deposition is modeled as
 $$
 p N_{niche} = 1
